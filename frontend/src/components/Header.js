@@ -48,9 +48,14 @@ const Header = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
                 {/* Mobile Menu Button */}
+                <button
+                    onClick={toggleMenu}
+                    className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-orange-500 focus:outline-none">
+                    {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                </button>
+                </div>
             </div>
         </nav>
     );
