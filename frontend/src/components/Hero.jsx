@@ -18,5 +18,14 @@ className="pt-20 bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50 relati
 
 {/* Background overlay*/}
 <div className="absolute insert-0 bg-white/20"></div>
+
+<div className="max-w-7xl max-auto px-4 sm:px-6 lg:px-8 py-20 relative">
+
+<div className="grid lg:grid-cols-2 gap-12 items-center">
+
+{/* Left Column - Text content */}
+
+</div>
+</div>
 );
 }
