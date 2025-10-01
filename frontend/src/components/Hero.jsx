@@ -36,7 +36,15 @@ const Hero = () => {
                                 Electro Plates
                             </span>
                         </h1>
+
+                        {/* Subheading */}
+                        <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
+                            Transform your kitchen with energy efficient, safe, and modern electric cooking plates.
+                            Perfect for apartments, offices, and modern homes across Kenya.
+                        </p>
                     </div>
+
+                    {/* Call to Action Buttons */}
                 </div>
             </div>
         </section>
