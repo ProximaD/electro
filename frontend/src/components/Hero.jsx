@@ -28,9 +28,19 @@ const Hero = () => {
                             <Flame className="h-4 w-4 mr-2" />
                             Kenya's #1 Electric Cooking Solution
                         </div>
+
+                        {/* Main Headline */}
+                        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+                            Cook Smarter with
+                            <span className="text-orange-500 block">
+                                Electro Plates
+                            </span>
+                        </h1>
                     </div>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
+
+export default Hero;
