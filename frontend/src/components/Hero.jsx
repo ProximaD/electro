@@ -45,6 +45,21 @@ const Hero = () => {
                     </div>
 
                     {/* Call to Action Buttons */}
+                    <div className="flex flex-col sm:flex-row gap-4">
+                        <button
+                        onClick={handleShopNow}
+                        className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition duration-300 transform hover:scale-105 shadow-lg">
+                            Shop Now - Free Delivery
+                        </button>
+
+                        <button
+                        onClick={handleCallNow}
+                        className="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition duration-300">
+                            Call: 0700 123 456
+                        </button>
+                    </div>
+
+                    {/* Trust Indicators */}
                 </div>
             </div>
         </section>
