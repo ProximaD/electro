@@ -60,6 +60,22 @@ const Hero = () => {
                     </div>
 
                     {/* Trust Indicators */}
+                    <div className="flex items-center space-x-6 text-sm text-gray-600">
+                        <div className="flex items-center">
+                            <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
+                            2-Year Warranty
+                        </div>
+
+                        <div className="flex items-center">
+                            <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
+                            30-Day Money Back Guarantee
+                        </div>
+
+                        <div className="flex items-center">
+                            <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
+                            Free Shipping Nationwide
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
