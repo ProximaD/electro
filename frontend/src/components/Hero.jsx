@@ -18,7 +18,7 @@ const Hero = () => {
 
             {/* Background overlay */}
             <div className="absolute insert-0 bg-white/20"></div>
-
+            <div className="max-w-7xl max-auto  px-4 sm:px-6 lg:px-8 py-20 relative">
             <div className="grid lg grid-cols-2 gap-12 items-center">
                 {/* Left column- Text content */}
                 <div className="space-y-8">
@@ -77,6 +77,25 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
+
+                {/*Right column - Hero Image */}
+                <div className="relative">
+                    {/* Background decoration */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transfolrm rotate-6 opacity-20"></div>
+
+                    {/* Main Product Image */}
+                    <img 
+                    src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop" 
+                    alt="Electro electric plate"
+                    className="relative z-10 w-full h-auto rounded-3xl shadow-2xl" 
+                    />
+
+                    {/* Price Badge */}
+                    <div className="absolute -top-4 -right-4 bg-orange-500 text-white px-4 py-2 rounded-full  font-bold z-20">
+                        From KSh 3,200
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
     );
