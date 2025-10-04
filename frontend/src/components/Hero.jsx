@@ -80,8 +80,8 @@ const Hero = () => {
 
                 {/*Right column - Hero Image */}
                 <div className="relative">
-                    {/* Background decoration */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transfolrm rotate-6 opacity-20"></div>
+                    {/* Background decoration */} 
+                    <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transform rotate-6 opacity-20"></div>
 
                     {/* Main Product Image */}
                     <img 
@@ -91,7 +91,7 @@ const Hero = () => {
                     />
 
                     {/* Price Badge */}
-                    <div className="absolute -top-4 -right-4 bg-orange-500 text-white px-4 py-2 rounded-full  font-bold z-20">
+                    <div className="absolute -top-4 -right-4 bg-orange-500 text-white px-4 py-2 rounded-full font-bold z-20">
                         From KSh 3,200
                     </div>
                 </div>
