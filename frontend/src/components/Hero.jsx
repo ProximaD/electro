@@ -14,12 +14,12 @@ const Hero = () => {
 
     return (
         <section id="home" 
-        className="pt-20 bg-gradient-t0-br from-orange-50 via-red-50 to-yellow-50 relative overflow-hidden">
+        className="pt-20 bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50 relative overflow-hidden">
 
             {/* Background overlay */}
-            <div className="absolute insert-0 bg-white/20"></div>
-            <div className="max-w-7xl max-auto  px-4 sm:px-6 lg:px-8 py-20 relative">
-            <div className="grid lg grid-cols-2 gap-12 items-center">
+            <div className="absolute inset-0 bg-white/20"></div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 relative">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 {/* Left column- Text content */}
                 <div className="space-y-8">
                     <div className="space-y-4">
@@ -73,7 +73,7 @@ const Hero = () => {
 
                         <div className="flex items-center">
                             <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                            Free Shipping Nationwide
+                            Free Shipping
                         </div>
                     </div>
                 </div>
