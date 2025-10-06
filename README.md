@@ -1,15 +1,15 @@
 # Electro Kenya
 
 <div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Responsive-Design-00C7B7?style=for-the-badge" alt="Responsive Design" />
+  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.3.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
 </div>
 
 <div align="center">
   <h3>⚡ Kenya's #1 Electric Cooking Solution</h3>
-  <p>A modern e-commerce landing page for electric cooking plates, built with clean design and responsive layouts</p>
+  <p>A modern e-commerce landing page for electric cooking plates, built with React and Tailwind CSS</p>
 </div>
 
 ---
@@ -53,11 +53,12 @@ Electro Kenya is a modern, conversion-focused landing page for an electric cooki
 
 ## 🛠️ Technologies Used
 
-- **HTML5** - Semantic markup structure
-- **CSS3** - Custom styling and animations
-- **JavaScript** - Interactive functionality
-- **Responsive Design** - Mobile-first approach
-- **Modern Web Standards** - Accessible and SEO-friendly
+- **React.js** - Component-based UI library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Next-generation frontend build tool
+- **JavaScript (ES6+)** - Modern JavaScript features
+- **PostCSS** - CSS transformations
+- **ESLint** - Code quality and consistency
 
 ---
 
@@ -65,9 +66,9 @@ Electro Kenya is a modern, conversion-focused landing page for an electric cooki
 
 ### Prerequisites
 
-- Modern web browser (Chrome, Firefox, Safari, or Edge)
-- Text editor (VS Code, Sublime Text, etc.)
-- Git (optional)
+- Node.js (v16 or higher)
+- npm or yarn
+- Git
 
 ### Installation
 
@@ -81,20 +82,38 @@ Electro Kenya is a modern, conversion-focused landing page for an electric cooki
    cd electro-kenya
    ```
 
-3. **Open in browser**
-   - Simply open `index.html` in your preferred browser
-   - Or use a local server:
-   
+3. **Install dependencies**
    ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js http-server
-   npx http-server
+   npm install
+   # or
+   yarn install
    ```
 
-4. **View the site**
-   - Open `http://localhost:8000` in your browser
+4. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. **View the site**
+   - Open `http://localhost:5173` in your browser
+
+### Build for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+# or
+yarn preview
+```
 
 ---
 
@@ -103,19 +122,32 @@ Electro Kenya is a modern, conversion-focused landing page for an electric cooki
 ```
 electro-kenya/
 │
-├── index.html          # Main landing page
-├── css/
-│   ├── style.css       # Main stylesheet
-│   └── responsive.css  # Responsive media queries
-├── js/
-│   └── main.js         # JavaScript functionality
-├── images/
-│   ├── logo.svg        # Brand logo
-│   ├── hero-image.jpg  # Hero section image
-│   └── icons/          # UI icons
-├── assets/
-│   └── fonts/          # Custom fonts (if any)
-└── README.md           # Project documentation
+├── frontend/
+│   ├── node_modules/       # Dependencies
+│   ├── public/             # Static assets
+│   ├── src/
+│   │   ├── assets/         # Images, fonts, etc.
+│   │   ├── components/     # React components
+│   │   │   ├── Header.jsx  # Navigation header
+│   │   │   └── Hero.jsx    # Hero section
+│   │   ├── pages/          # Page components
+│   │   ├── styles/         # Additional styles
+│   │   ├── utils/          # Utility functions
+│   │   ├── App.css         # App-specific styles
+│   │   ├── App.jsx         # Main App component
+│   │   ├── index.css       # Global styles & Tailwind imports
+│   │   └── main.jsx        # React entry point
+│   ├── .gitignore
+│   ├── eslint.config.js    # ESLint configuration
+│   ├── index.html          # HTML entry point
+│   ├── package.json        # Dependencies & scripts
+│   ├── package-lock.json
+│   ├── postcss.config.js   # PostCSS configuration
+│   ├── tailwind.config.js  # Tailwind CSS configuration
+│   └── vite.config.js      # Vite configuration
+│
+├── .gitattributes
+└── README.md               # Project documentation
 ```
 
 ---
@@ -160,9 +192,9 @@ Green Accent:     #10B981  /* Trust badges */
 
 ### Typography
 
-- **Headings**: System fonts (optimized for readability)
-- **Body Text**: 16px base font size
-- **Line Height**: 1.6 for optimal readability
+- **Font Family**: Tailwind's default font stack
+- **Body Text**: Base font size with Tailwind utilities
+- **Responsive Typography**: Using Tailwind's responsive modifiers
 
 ---
 
@@ -175,8 +207,8 @@ Green Accent:     #10B981  /* Trust badges */
 - [ ] Contact form with backend integration
 - [ ] Shopping cart functionality
 - [ ] Payment gateway integration (M-Pesa, Card payments)
-- [ ] User authentication system
-- [ ] Admin dashboard
+- [ ] State management (Context API or Redux)
+- [ ] React Router for multi-page navigation
 - [ ] Blog section for cooking tips
 - [ ] Multi-language support (English/Swahili)
 - [ ] Live chat support
@@ -214,10 +246,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- Email: your.email@example.com
+- GitHub: github.com/ProximaD
+- LinkedIn: linkedin.com/in/sandra-lavenda-7a2228174
+- Website: https://sandralavenda.com/
 
 ---
 
