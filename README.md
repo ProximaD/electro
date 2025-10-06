@@ -34,7 +34,7 @@
 
 Electro Kenya is a modern, conversion-focused landing page for an electric cooking plates e-commerce business. The website showcases energy-efficient cooking solutions tailored for the Kenyan market, featuring apartments, offices, and modern homes.
 
-**Live Demo**: [View Demo](https://your-demo-link.com)
+**Live Demo**: [View Demo]https://electro-1g2m.vercel.app/
 
 ---
 
@@ -155,7 +155,7 @@ electro-kenya/
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop Screenshot](screenshots/desktop.png)
+<img width="1002" height="752" alt="image" src="https://github.com/user-attachments/assets/7d4dea6f-23d9-4c19-acbf-4918cb270a33" />
 
 ### Mobile View
 ![Mobile Screenshot](screenshots/mobile.png)
