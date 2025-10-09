@@ -14,7 +14,7 @@ const Hero = () => {
 
     return (
         <section id="home" 
-        className="pt-20 bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50 relative overflow-hidden">
+        className="min-h-screen flex items-center justify-center m-0 p-0 bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50 relative overflow-hidden">
 
             {/* Background overlay */}
             <div className="absolute inset-0 bg-white/20"></div>
