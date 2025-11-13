@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import { Star, Truck, ShieldCheck } from 'lucide-react';
+import singleElectricPlate from '../assets/products/P01.jpg';
+import doubleElectricPlate from '../assets/products/P02.jpg';
+import infraredElectricPlate from '../assets/products/P03.jpg';
+import electricStovePro from '../assets/products/P04.jpg';
+import smartTouchPlate from '../assets/products/P05.png';
+import ecoSaverPlate from '../assets/products/P06.jpg';
 
 const Products = () => {
   const [showMore, setShowMore] = useState(false);
@@ -11,7 +17,7 @@ const Products = () => {
       id: 1,
       name: "Single Electric Plate",
       price: "KSh 3,200",
-      image: "https://images.unsplash.com/photo-1606813903067-1c0a3dfba8b8?w=600&h=400&fit=crop",
+      image: singleElectricPlate,
       description: "Compact and portable single burner for quick and efficient cooking — perfect for small spaces.",
       category: "Basic"
     },
@@ -19,7 +25,7 @@ const Products = () => {
       id: 2,
       name: "Double Electric Plate",
       price: "KSh 5,800",
-      image: "https://images.unsplash.com/photo-1590080875835-45a2b9ad9b5d?w=600&h=400&fit=crop",
+      image: doubleElectricPlate,
       description: "Cook two meals at once with fast-heating technology and energy-efficient performance.",
       category: "Pro"
     },
@@ -27,7 +33,7 @@ const Products = () => {
       id: 3,
       name: "Infrared Electric Plate",
       price: "KSh 6,900",
-      image: "https://images.unsplash.com/photo-1601041543402-1b20e1e56a97?w=600&h=400&fit=crop",
+      image: infraredElectricPlate,
       description: "Modern design with infrared heating for even cooking — stylish and durable for Kenyan homes.",
       category: "Smart"
     },
@@ -35,7 +41,7 @@ const Products = () => {
       id: 4,
       name: "Electric Stove Pro",
       price: "KSh 7,500",
-      image: "https://images.unsplash.com/photo-1603899122776-3f99c04b0b19?w=600&h=400&fit=crop",
+      image: electricStovePro,
       description: "Professional-grade dual stove built for energy efficiency and fast heating performance.",
       category: "Pro"
     },
@@ -43,7 +49,7 @@ const Products = () => {
       id: 5,
       name: "Smart Touch Plate",
       price: "KSh 8,200",
-      image: "https://images.unsplash.com/photo-1616627454515-cb2d7e3a5b2a?w=600&h=400&fit=crop",
+      image: smartTouchPlate,
       description: "Touch-controlled technology for precision cooking — modern and sleek for every kitchen.",
       category: "Smart"
     },
@@ -51,7 +57,7 @@ const Products = () => {
       id: 6,
       name: "Eco Saver Plate",
       price: "KSh 4,900",
-      image: "https://images.unsplash.com/photo-1606813753694-30ac58c718b1?w=600&h=400&fit=crop",
+      image: ecoSaverPlate,
       description: "Save energy and money with eco-smart design that keeps your meals hot longer.",
       category: "Eco"
     },
@@ -121,7 +127,7 @@ const Products = () => {
               <img 
                 src={product.image}
                 alt={product.name}
-                className="w-full h-56 object-cover"
+                className="w-full h-56 object-fit"
               />
 
               <div className="p-6 text-left space-y-4">
