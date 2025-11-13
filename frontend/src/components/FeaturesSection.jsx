@@ -40,42 +40,6 @@ const FeaturesSection = () => {
             </p>
           </div>
         </div>
-
-        {/* --- Testimonials --- */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-semibold text-gray-900 mb-8">What our shoppers say</h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { name: "Achieng’ W.", quote: "Smooth checkout and my order arrived on time!" },
-              { name: "Brian K.", quote: "Loved that I could pay with Mpesa instantly." },
-              { name: "Zawadi M.", quote: "Beautiful products and great customer care!" },
-            ].map((t, i) => (
-              <div key={i} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
-                <div className="flex justify-center mb-3 text-yellow-400">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={18} fill="currentColor" />
-                  ))}
-                </div>
-                <p className="text-gray-700 italic mb-3">"{t.quote}"</p>
-                <h4 className="text-sm font-semibold text-gray-800">{t.name}</h4>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* --- Payment Illustration --- */}
-        <div className="flex flex-col items-center bg-white p-10 rounded-2xl shadow-lg">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Accepted Payments</h3>
-          <div className="flex items-center gap-6 flex-wrap justify-center">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/M-PESA_LOGO-01.svg" alt="Mpesa" className="h-8" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="MasterCard" className="h-8" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa" className="h-8" />
-          </div>
-          <p className="text-gray-600 mt-4 text-sm">
-            Powered by secure and verified payment partners.
-          </p>
-        </div>
-
       </div>
     </section>
   );

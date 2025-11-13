@@ -39,12 +39,8 @@ const Header = () => {
                                 Features
                             </a>
 
-                            <a href="#testimonials" className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium transition duration-300" onClick={closeMenu}>
-                                Testimonials
-                            </a>
-
-                            <a href="#contact" className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-mdtext-sm font-medium transition dutation-300" onClick={closeMenu}>
-                                Contact
+                            <a href="#reviews" className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium transition duration-300" onClick={closeMenu}>
+                                Reviews
                             </a>
                         </div>
                     </div>
@@ -79,16 +75,10 @@ const Header = () => {
                             Features
                         </a>
 
-                        <a href="#testimonials"
+                        <a href="#reviews"
                         className="text-gray-900 hover:text-orange-500 block px-3 py-2 rounded-md text-base font-medium"
                         onClick={closeMenu}>
-                            Testimonials
-                        </a>
-
-                        <a href="#contact"
-                        className="text-gray-900 hover:text-orange-500 block px-3 py-2 rounded-md text-base font-medium"
-                        onClick={closeMenu}>
-                            Contact
+                            Reviews
                         </a>
                     </div>
                 </div>
