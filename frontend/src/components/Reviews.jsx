@@ -40,7 +40,7 @@ export default function Reviews() {
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="h-6 w-6 text-yellow-400 fill-current" />
             ))}
-            <span className="ml-2 text-gray-600">4.9/5 from 10,000+ users</span>
+            <span className="ml-2 text-gray-600">4.8/5 from 10,000+ users</span>
           </div>
         </div>
 
