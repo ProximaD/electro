@@ -34,13 +34,13 @@ export default function Reviews() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Loved by Eco-Warriors Worldwide
+            ELECTRO Kenya
           </h2>
           <div className="flex items-center justify-center space-x-1 mb-4">
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="h-6 w-6 text-yellow-400 fill-current" />
             ))}
-            <span className="ml-2 text-gray-600">4.9/5 from 50,000+ users</span>
+            <span className="ml-2 text-gray-600">4.9/5 from 10,000+ users</span>
           </div>
         </div>
 
@@ -67,7 +67,7 @@ export default function Reviews() {
         </div>
       </div>
 
-              {/* --- Payment Illustration --- */}
+              {/* Payment Illustration */}
         <div className="flex flex-col items-center bg-white p-10 rounded-2xl shadow-lg">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Accepted Payments</h3>
           <div className="flex items-center gap-6 flex-wrap justify-center">
