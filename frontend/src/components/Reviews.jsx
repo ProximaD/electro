@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star } from 'lucide-react';
+import mpesaLogo from '../assets/logos/SAF-MAIN-LOGO.png';
 
 export default function Reviews() {
   const reviews = [
@@ -71,7 +72,7 @@ export default function Reviews() {
         <div className="flex flex-col items-center bg-white p-10 rounded-2xl shadow-lg">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Accepted Payments</h3>
           <div className="flex items-center gap-6 flex-wrap justify-center">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/M-PESA_LOGO-01.svg" alt="Mpesa" className="h-8" />
+            <img src={mpesaLogo} alt="Mpesa" className="h-8" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="MasterCard" className="h-8" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa" className="h-8" />
           </div>
