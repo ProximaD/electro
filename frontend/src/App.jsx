@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Products from './components/Products';
-//import FeaturesSection from './components/FeaturesSection';
+import FeaturesSection from './components/FeaturesSection';
 //import Footer from './components/Footer';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Products />
+      <FeaturesSection />
     </div>
   );
 }
